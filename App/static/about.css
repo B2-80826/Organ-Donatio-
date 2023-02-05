@@ -1,0 +1,38 @@
+body {
+      font-family: Arial, sans-serif;
+      background-color: #F0F0F0;
+      text-align: center;
+    }
+    h1 {
+      font-size: 42px;
+      margin-top: 50px;
+    }
+    p {
+      font-size: 18px;
+      margin-top: 50px;
+      width: 70%;
+      margin: 0 auto;
+      text-align: justify;
+    }
+    nav {
+      background-color: #333;
+      color: #fff;
+      display: flex;
+      justify-content: space-around;
+      padding: 20px;
+      margin-top: 50px;
+    }
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      font-size: 18px;
+    }
+    .give-btn {
+      background-color: #337ab7;
+      color: #fff;
+      border-radius: 5px;
+      padding: 10px 20px;
+      margin-top: 50px;
+      text-decoration: none;
+      font-size: 18px;
+    }

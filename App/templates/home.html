@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>Home Page</title>
+    <link rel="stylesheet" type="text/css" href="/static/home.css">
+  </head>
+  <body>
+    <nav>
+      <a href="{{ url_for('login') }}">Login Page</a>
+      <a href="{{ url_for('contact') }}">Contact Us</a>
+      <a href="{{ url_for('about') }}">about us</a>
+    </nav>
+    <div class="content-container">
+       <form action="{{ url_for('home') }}"method="post">
+          {% if mesage is defined and mesage %}
+			<div class="alert alert-warning">{{ mesage }}</div>
+		{% endif %}
+      <h1>Organ Donation</h1>
+      <p>Organ donation is an opportunity to help others. People who are on an organ waiting list typically have end-stage organ disease that significantly impacts their quality of life and may be near the end of their life. Receiving an organ can become a life-changing event for these people. It can also help a family work through the grieving process and deal with their loss by knowing their loved one is helping save the lives of others.</p>
+      <p>The organ waiting list is always long. Every day, there are approximately 107,000 people on the waiting list nationally for an organ.</p>
+      <p>People are dying while waiting for an organ.  Each day 17 people in the United States die waiting for a transplant.</p>
+      <p>Nebraska needs more organ donors. In Nebraska alone, there are approximately 350 people waiting for an organ. Only about 58 percent of Nebraskans have registered as organ donors. In 2020 72 people in Nebraska who died donated organs, resulting in 214 organ transplants.</p>
+      <p>One organ donor can help multiple people. One organ donor has the potential to save eight lives.</p>
+      <p>Living donors fill a crucial need.  A living donor can donate a kidney or a portion of their liver to a friend or family member or even altruistically and continue to live a normal life with very little restrictions. People waiting for a kidney transplant make up more than 80 percent of people on the organ waiting list and people waiting for a liver transplant makeup approximately 12 percent.</p>
+      <p>Organ donation can be a rewarding and positive experience. It can help a family work through the grieving process and deal with their loss by knowing their loved one is helping save the lives of others.</p>
+      <p>There are no age exclusions to donate. If you are otherwise healthy, many of your organs could still be viable for an organ donation. The transplant surgeon evaluates the organs and decides whether they are suitable on a case-by-case basis.</p>
+      <p>Very few medical conditions disqualify you from donating your organs. It may be determined that certain organs are not suitable for transplantation, but other tissues and organs may be fine. Simply put, a disease in one organ does not preclude other organs from being donated.</p>
+      <p>Most religions support organ donation. This includes Catholics, Protestants, Islam and most branches of Judaism who see it as the final act of love and generosity toward others. If you are unsure, the federal website, OrganDonor.gov provides religious views on organ donation and transplantation by denomination.</p>
+    </form>
+    </div>
+  </body>
+</html>

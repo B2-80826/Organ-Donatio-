@@ -1,0 +1,42 @@
+body {
+  background-image: url("https://media.gettyimages.com/id/1268625627/photo/women-hand-holding-heart-heart-disease-concept.jpg?s=1024x1024&w=gi&k=20&c=2iNfjCga84URZTA9n-dsO4IPQCRM4_L9xKZlGVZxbS8=");
+  background-size: cover;
+  font-family: Arial, sans-serif;
+}
+
+nav {
+  background-color: #333;
+  color: #fff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 20px;
+}
+
+nav a {
+  color: #fff;
+  text-decoration: none;
+  margin-right: 20px;
+}
+
+.content-container {
+  padding: 50px;
+  text-align: center;
+  background-color: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  box-shadow: 0px 0px 10px 2px rgba(0, 0, 0, 0.3);
+  margin: 50px auto;
+  max-width: 800px;
+}
+
+h1 {
+  color: #333;
+  font-size: 36px;
+  margin-bottom: 50px;
+}
+
+p {
+  color: #333;
+  font-size: 18px;
+  line-height: 1.5;
+  margin-bottom: 30px;
+}
